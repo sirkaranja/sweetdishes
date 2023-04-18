@@ -33,8 +33,8 @@ function DisplayFood(){
                </div>
                <div class="card__info--price">
                   <p>Ksh 1500</p>
-                  <button type="button" >Order</button>
-                  
+                  <button type="button"onClick = {PlaceOrder} >Order</button>
+                 
                </div>
             </div>
          </div>
@@ -49,7 +49,7 @@ function DisplayFood(){
                </div>
                <div class="card__info--price">
                   <p>$Ksh 999</p>
-                  <button type="button" >Order</button>
+                  <button type="button"   onClick = {PlaceOrder} >Order</button>
                </div>
             </div>
          </div>
@@ -64,7 +64,7 @@ function DisplayFood(){
                </div>
                <div class="card__info--price">
                   <p>ksh 1000</p>
-                  <button type="button" >Order</button>
+                  <button type="button"  onClick = {PlaceOrder} >Order</button>
                </div>
             </div>
          </div>
