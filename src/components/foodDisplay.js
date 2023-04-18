@@ -1,6 +1,6 @@
 import React from "react";
 import "../App.css";
-
+import PlaceOrder from './order';
 //food displays
 function DisplayFood(){
     return(
@@ -14,9 +14,10 @@ function DisplayFood(){
                   <h3>Sea Food</h3>
                   <p>Fresh & sweet</p>
                </div>
-               <div class="card__info--price">
+               <div className="card__info--price">
                   <p>Ksh 3000</p>
-                  <button type="button"  >Order</button>
+                  <button type="button" 
+                  onClick = {PlaceOrder} >Order</button>
                   
                </div>
             </div>
